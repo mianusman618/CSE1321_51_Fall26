@@ -1,4 +1,4 @@
-phone_battery = 50.0
+phone_battery = 90.0
 if phone_battery == 100:
     print("Your phone is fully charged")
 elif phone_battery >= 75:
