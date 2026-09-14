@@ -3,6 +3,6 @@ age_int=int(age_str)
 if age_int >= 18:
     print("You are allowed to vote")
     print("another line in if block")
-if age_int<18:
+else:
     print("You are not allowed to vote")
 print("rest of the program")
