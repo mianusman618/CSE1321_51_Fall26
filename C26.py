@@ -1,8 +1,7 @@
-str_var="ABC"
+str_var="ABCD"
 iteration=1
 for x in str_var:
-    print("Iteration Num = ",iteration)
+    print("Iteration Num = ",iteration,end = " ")
     iteration+=1
-    if x == "B":
-        print("Value of x = ",x)
+    print("Value of x = ",x)
 print("rest of the program")
